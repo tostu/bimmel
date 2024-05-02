@@ -1,5 +1,8 @@
 <script>
-	import "../app.css";
+	import '../app.css';
+	import { Layout } from 'tostulib-svelte';
 </script>
 
-<slot />
+<Layout>
+	<slot />
+</Layout>
