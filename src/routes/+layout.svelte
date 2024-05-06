@@ -4,5 +4,5 @@
 </script>
 
 <Layout>
-	<slot />
+	<slot slot="main" />
 </Layout>
